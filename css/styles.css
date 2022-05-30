@@ -1,0 +1,23 @@
+/* * {
+    border: 1px solid;
+    border-color: red;
+} */
+
+body {
+    background-color: #282a36;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: larger;    
+}
+
+.row, .row a{
+    display: table;
+    color: #f8f8f2;
+}
+
+.row a:visited {
+    color: #f1fa8c;
+}
