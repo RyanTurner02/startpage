@@ -1,0 +1,41 @@
+body {
+    background-color: #282a36;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    padding-right: 15px;
+}
+
+.bookmark-container {
+    border: 1px solid;
+    border-color: #44475a;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.header {
+    font-size: larger;
+    display: inline;
+    color: #f8f8f2;
+    text-decoration: underline;
+}
+
+.bookmark {
+    display: block;
+    color: #f1fa8c;
+    text-decoration: none;
+}
