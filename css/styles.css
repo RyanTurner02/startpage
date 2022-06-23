@@ -6,27 +6,26 @@ body {
 
 .container {
     display: flex;
-    align-items: stretch;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.bookmark-container {
+    border: 1px solid;
+    border-color: #44475a;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
 }
 
 .header {
     font-size: larger;
     display: inline;
     color: #f8f8f2;
+    text-decoration: underline;
 }
 
-.column, .column a{
-    display: table;
-    color: #6272a4;
-}
-
-.column a:visited {
+.bookmark {
+    display: block;
     color: #f1fa8c;
-}
-
-.column {
-    padding: 30px;
+    text-decoration: none;
 }
