@@ -1,6 +1,8 @@
 body {
     background-color: #282a36;
     font-family: 'Poppins', sans-serif;
+
+    /* Display the contents on the center of the page */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,11 +14,13 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
 }
 
-.container img {
-    padding-right: 15px;
+#tower-image {
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
 }
 
 .bookmark-container {
@@ -24,12 +28,12 @@ body {
     border-color: #44475a;
     border-radius: 15px;
     padding: 15px;
-    margin: 15px;
+    margin-left: 15px;
 }
 
 .header {
-    font-size: larger;
     display: inline;
+    font-size: larger;
     color: #f8f8f2;
     text-decoration: underline;
 }
