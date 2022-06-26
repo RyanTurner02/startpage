@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.container {
+.row-container {
     display: flex;
     align-items: stretch;
 }
