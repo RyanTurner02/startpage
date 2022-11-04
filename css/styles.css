@@ -1,45 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #282a36;
     font-family: 'Poppins', sans-serif;
-
-    /* Display the contents on the center of the page */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 16px;
 }
 
-.row-container {
-    display: flex;
-    align-items: stretch;
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #tower-image {
+        max-width: 50%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #tower-image {
+        max-width: 30%;
+    }
 }
 
 #tower-image {
-    border-radius: 15px;
-    width: 300px;
-    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#search-field {
+    width: 50%;
+    background-color: #f0f0f0;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#search-button {
+    color: #f0f0f0;
+    background-color: #FB542B;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#search-field:focus, #search-button:focus {
+    outline: none;
 }
 
 .bookmark-container {
     border: 1px solid;
     border-color: #44475a;
     border-radius: 15px;
+    margin-bottom: 15px;
     padding: 15px;
-    margin-left: 15px;
 }
 
 .header {
-    display: inline;
     font-size: larger;
-    color: #f8f8f2;
     text-decoration: underline;
+    color: #f8f8f2;
 }
 
 .bookmark {
-    display: block;
     color: #f1fa8c;
     text-decoration: none;
 }

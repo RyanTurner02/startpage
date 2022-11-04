@@ -1,47 +1,61 @@
 <!DOCTYPE html>
+
 <html lang="en">
+    <head>
+        <title>Startpage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/search.js" defer></script>
+    </head>
 
-<head>
-    <title>Startpage</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <img id="tower-image" src="img/tower.jpg" alt="Tower">
-
-    <div class="container">
-        <div class="row-container">
-            <div class="bookmark-container">
-                <p class="header">Coding</p>
-                <a class="bookmark" href="https://github.com/">GitHub</a>
-                <a class="bookmark" href="https://stackoverflow.com/">StackOverflow</a>
+    <body>
+        <div class="container">
+            <img class="img-responsive img-rounded center-block" id="tower-image" src="img/tower.jpg" alt="Tower">
+            
+            <div class="search-container">
+                <input id="search-field" placeholder="Search with Brave">
+                <button type="button" class="btn" id="search-button">Enter</button>
             </div>
 
-            <div class="bookmark-container">
-                <p class="header">Music</p>
-                <a class="bookmark" href="https://soundcloud.com/">SoundCloud</a>
-                <a class="bookmark" href="https://open.spotify.com/">Spotify</a>
-            </div>
+            <div class="row row-container">
+                <div class="col-xs-6 col-sm-6 bookmark-container">
+                    <p class="header">Coding</p>
+                    <a class="bookmark" href="https://github.com/">GitHub<br></a>
+                    <a class="bookmark" href="https://stackoverflow.com/">StackOverflow<br></a>
+                </div>
 
-            <div class="bookmark-container">
-                <p class="header">Productivity</p>
-                <a class="bookmark" href="https://pomofocus.io/">Pomodoro</a>
-            </div>
+                <div class="col-xs-6 col-sm-6 bookmark-container">
+                    <p class="header">Music</p>
+                    <a class="bookmark" href="https://soundcloud.com/">SoundCloud<br></a>
+                    <a class="bookmark" href="https://open.spotify.com/">Spotify<br></a>
+                </div>
 
-            <div class="bookmark-container">
-                <p class="header">Socials</p>
-                <a class="bookmark" href="https://news.ycombinator.com/">HackerNews</a>
-                <a class="bookmark" href="https://www.reddit.com/">Reddit</a>
-                <a class="bookmark" href="https://twitter.com/">Twitter</a>
-                <a class="bookmark" href="https://www.youtube.com/">YouTube</a>
+                <div class="col-xs-6 col-sm-6 bookmark-container">
+                    <p class="header">Productivity</p>
+                    <a class="bookmark" href="https://www.icloud.com/">iCloud<br></a>
+                    <a class="bookmark" href="https://proton.me/">Proton<br></a>
+                    <a class="bookmark" href="https://tomato-timer.com/">Pomodoro<br></a>
+                    <br>
+                </div>
+
+                <div class="col-xs-6 col-sm-6 bookmark-container">
+                    <p class="header">Socials</p>
+                    <a class="bookmark" href="https://news.ycombinator.com/">HackerNews<br></a>
+                    <a class="bookmark" href="https://www.reddit.com/">Reddit<br></a>
+                    <a class="bookmark" href="https://twitter.com/">Twitter<br></a>
+                    <a class="bookmark" href="https://www.youtube.com/">YouTube<br></a>
+                </div>
             </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
