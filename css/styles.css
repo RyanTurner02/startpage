@@ -82,3 +82,7 @@ body {
     color: #f1fa8c;
     text-decoration: none;
 }
+
+.bookmark:hover {
+    color: #ffb86c;
+}
