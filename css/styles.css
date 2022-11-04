@@ -13,6 +13,11 @@ body {
     margin-bottom: 15px;
 }
 
+.row-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #tower-image {
     max-width: 75%;
     margin-top: 15px;
