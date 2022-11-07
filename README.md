@@ -2,9 +2,13 @@
 
 A custom webpage for a browser on its startup.
 
-<p align="center">
-    <img src="img/startpage-desktop.png" alt="Desktop Preview">
-</p>
+<table>
+    <tr>
+        <td>
+            <img src="img/startpage-desktop.png" alt="Desktop Preview">
+        </td>
+    </tr>
+</table>
 
 <table>
     <tr>
