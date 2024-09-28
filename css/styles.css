@@ -71,6 +71,7 @@ body {
 
 .bookmark:hover {
     color: #ffb86c;
+    text-decoration: underline;
 }
 
 /* Small devices (landscape phones, 576px and up) */
