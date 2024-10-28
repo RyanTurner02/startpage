@@ -19,7 +19,7 @@ body {
     max-width: 90%;
 
     @media (min-width: 576px) {
-        max-width: 70%;
+        max-width: 60%;
     }
 
     @media (min-width: 768px) {
@@ -48,7 +48,7 @@ body {
     border-radius: 5px 0px 0px 5px;
 
     @media (min-width: 576px) {
-        max-width: 60%;
+        max-width: 55%;
     }
 
     @media (min-width: 768px) {
