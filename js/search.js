@@ -5,8 +5,7 @@ const searchButton = document.getElementById("search-button");
 
 searchButton.addEventListener("click", searchButtonClicked);
 
-// check if the "Enter" key is pressed
-document.addEventListener("keydown", function (event) {
+searchTextField.addEventListener("keydown", (event) => {
     if (event.key == "Enter") {
         searchButtonClicked();
     }
