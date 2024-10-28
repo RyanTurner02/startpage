@@ -1,7 +1,7 @@
-const BRAVE_Search_URL = "https://search.brave.com/search?q=";
+const BRAVE_SEARCH_URL = "https://search.brave.com/search?q=";
 
-let searchTextField = document.getElementById("search-field");
-let searchButton = document.getElementById("search-button");
+const searchTextField = document.getElementById("search-field");
+const searchButton = document.getElementById("search-button");
 
 searchButton.addEventListener("click", searchButtonClicked);
 
@@ -13,12 +13,12 @@ document.addEventListener("keydown", function (event) {
 });
 
 function searchButtonClicked() {
-    let searchString = searchTextField.value;
+    const searchString = searchTextField.value;
 
     if (searchString.length == 0) {
         return;
     }
 
-    let URL = BRAVE_Search_URL + searchString;
+    const URL = BRAVE_SEARCH_URL + searchString;
     window.location.href = URL;
 }
