@@ -12,6 +12,7 @@ body {
 
 .container {
     margin-bottom: 10px;
+    min-height: 100vh;
 }
 
 .row-container {
