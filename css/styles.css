@@ -11,32 +11,22 @@ body {
 }
 
 .container {
-    margin-bottom: 10px;
     min-height: 100vh;
-}
-
-.row-container {
-    margin-left: 0;
-    margin-right: 0;
 }
 
 #tower-image {
     max-width: 75%;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .search-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
 }
 
 #search-field {
     width: 100%;
     background-color: #f0f0f0;
     padding-left: 10px;
-    padding-right: 10px;
     border: none;
     border-radius: 5px 0px 0px 5px;
 }
@@ -62,7 +52,6 @@ body {
 .header {
     font-size: larger;
     text-decoration: underline;
-    margin-bottom: 0;
     color: #f8f8f2;
 }
 
