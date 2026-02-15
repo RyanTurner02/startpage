@@ -88,3 +88,27 @@ body {
     color: #ffb86c;
     text-decoration: underline;
 }
+
+.error-container {
+    text-align: center;
+}
+
+.error-header {
+    color: #f8f8f2;
+    font-weight: bold;
+    text-wrap: balanced;
+}
+
+.error-paragraph {
+    color: #f8f8f2;
+    text-wrap: pretty;
+}
+
+.error-paragraph a {
+    color: #f1fa8c;
+    text-decoration: underline;
+}
+
+.error-paragraph a:hover {
+    color: #ffb86c;
+}
